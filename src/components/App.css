@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 1em;
+}
+
+.card-resto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

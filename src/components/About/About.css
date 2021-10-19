@@ -1,0 +1,9 @@
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about img {
+    max-width: 45%;
+}

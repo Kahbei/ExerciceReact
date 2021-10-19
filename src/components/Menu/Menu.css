@@ -1,0 +1,24 @@
+nav {
+    display: grid;
+    grid-template-columns: 15% 1fr 20%;
+    background-color: #2d2d2d;
+    height: 64px;
+}
+
+.menu-logo-titre {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    align-items: center;
+}
+
+.menu-logo {
+    max-width: 64px;
+}
+
+.menu-titre {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
