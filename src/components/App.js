@@ -14,10 +14,10 @@ function App() {
                 <About />
                 <Reservationbtn />
                 <div className="card-resto">
-                    <Badge />
-                    <Badge />
-                    <Badge />
-                    <Badge />
+                    <Badge resto="ninkasi" />
+                    <Badge resto="cambodia" />
+                    <Badge resto="goutdekyun" />
+                    <Badge resto="basilicandco" />
                 </div>
             </main>
             <footer></footer>
