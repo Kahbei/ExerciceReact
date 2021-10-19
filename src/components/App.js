@@ -1,6 +1,6 @@
 import About from "./About/About";
 import "./App.css";
-import Badge from "./Badge/Badge";
+import Cards from "./Cards/Cards";
 import Menu from "./Menu/Menu";
 import Reservationbtn from "./Reservationbtn/Reservationbtn";
 
@@ -14,10 +14,10 @@ function App() {
                 <About />
                 <Reservationbtn />
                 <div className="card-resto">
-                    <Badge resto="ninkasi" />
-                    <Badge resto="cambodia" />
-                    <Badge resto="goutdekyun" />
-                    <Badge resto="basilicandco" />
+                    <Cards resto="ninkasi" />
+                    <Cards resto="cambodia" />
+                    <Cards resto="goutdekyun" />
+                    <Cards resto="basilicandco" />
                 </div>
             </main>
             <footer></footer>

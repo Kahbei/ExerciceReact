@@ -1,3 +1,11 @@
+.card {
+    width: 18em;
+}
+
+.card img {
+    height: 12em;
+}
+
 .badge {
     width: 250px;
     height: 400px;

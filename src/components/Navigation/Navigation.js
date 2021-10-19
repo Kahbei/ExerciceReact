@@ -1,28 +1,24 @@
 import "./Navigation.css";
 
+const NavMenu = (props) => {
+    return (
+        <li className="nav-item">
+            <a className="nav-link" href="">
+                {props.name}
+            </a>
+        </li>
+    );
+};
+
 function Navigation() {
     return (
-        <div className="navigation">
-            <ul>
-                <li>
-                    <a>Nav 1</a>
-                </li>
-                <li>
-                    <a>Nav 2</a>
-                </li>
-                <li>
-                    <a>Nav 3</a>
-                </li>
-                <li>
-                    <a>Nav 4</a>
-                </li>
-                <li>
-                    <a>Nav 5</a>
-                </li>
-                <li>
-                    <a>Nav 6</a>
-                </li>
-            </ul>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <NavMenu name="menu1" />
+            <NavMenu name="menu2" />
+            <NavMenu name="menu3" />
+            <NavMenu name="menu4" />
+            <NavMenu name="menu5" />
+            <NavMenu name="menu6" />
         </div>
     );
 }

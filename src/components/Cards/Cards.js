@@ -1,4 +1,4 @@
-import "./Badge.css";
+import "./Cards.css";
 import logoDefault from "../logo.svg";
 import goutdekyun from "../goutdekyun.jpg";
 import cambodia from "../cambodia.jpg";
@@ -37,12 +37,26 @@ function Badge(props) {
     }
 
     return (
-        <div className="badge">
-            <img src={logo} alt="image-restaurant" />
-            <div>
-                <h2 className="badge-restaurant">{titre}</h2>
-                <p>Lorem Ipsum bellum bellum bellum bellamos belleis bellum</p>
-                <button className="btn-badge">Plus d'information</button>
+        // <div className="badge">
+        //     <img src={logo} alt="image-restaurant" />
+        //     <div>
+        //         <h2 className="badge-restaurant">{titre}</h2>
+        //         <p>Lorem Ipsum bellum bellum bellum bellamos belleis bellum</p>
+        //         <button className="btn-badge">Plus d'information</button>
+        //     </div>
+        // </div>
+
+        <div className="card">
+            <img src={logo} className="card-img-top" alt="image-restaurant" />
+            <div className="card-body">
+                <h5 className="card-title">{titre}</h5>
+                <p className="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                    Plus d'information
+                </a>
             </div>
         </div>
     );

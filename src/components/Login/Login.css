@@ -15,6 +15,14 @@
     align-items: center;
 }
 
+.profil-name {
+    margin: 0 1em;
+}
+
+.profil-name p {
+    margin: 0;
+}
+/* 
 .profil-photo {
     width: 48px;
     height: 48px;
@@ -37,4 +45,4 @@
 .btn-deconnection:hover {
     color: #000;
     background-color: rgba(255, 255, 255, 1);
-}
+} */
