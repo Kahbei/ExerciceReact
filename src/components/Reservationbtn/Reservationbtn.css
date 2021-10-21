@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.reservationbtn button {
+/* .reservationbtn button {
     width: 30%;
     height: 72px;
     background-color: rgba(0, 0, 0, 0);
@@ -17,4 +17,4 @@
 .reservationbtn button:hover {
     background-color: rgba(0, 0, 0, 1);
     color: #fff;
-}
+} */

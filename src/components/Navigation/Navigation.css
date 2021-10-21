@@ -1,4 +1,4 @@
-.navigation {
+/* .navigation {
     color: #fff;
     height: inherit;
 }
@@ -17,4 +17,12 @@
     text-decoration: none;
     list-style: none;
     text-align: center;
+} */
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.75);
 }
