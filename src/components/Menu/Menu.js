@@ -31,13 +31,13 @@ const LogoTitre = () => {
     );
 };
 
-function Menu() {
+function Menu(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <LogoTitre />
                 <Navigation />
-                <Login />
+                <Login infoLoggin={props.infoLog} setLoggin={props.changeLog} />
             </div>
         </nav>
     );

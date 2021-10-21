@@ -1,14 +1,5 @@
-.login {
-    height: inherit;
-}
-
 .login-profil {
-    color: #fff;
-    height: inherit;
-}
-
-.login-profil {
-    height: inherit;
+    height: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
